@@ -1,0 +1,43 @@
+{
+    "tkgi": {
+        "name": "Tanzu Kubernetes Grid Integrated Edition (TKGI)",
+        "docs": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/index.html",
+        "releases": [
+            {
+                "version": "1.13.4",
+                "releaseDate": "April 29, 2022",
+                "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-4",
+                "tkr": ["v1.22.6"]
+            }, {
+                "version": "1.13.3",
+                "releaseDate": "March 11, 2022",
+                "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-3",
+                "tkr": ["v1.22.6"]
+            }, {
+                "version": "1.13.2",
+                "releaseDate": "February 17, 2022",
+                "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-2",
+                "tkr": ["v1.22.6"]
+            }, {
+                "version": "1.13.1",
+                "releaseDate": "December 22, 2021",
+                "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-1",
+                "tkr": ["v1.22.2"]
+            }, {
+                "version": "1.13.0",
+                "releaseDate": "November 30, 2021",
+                "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-0",
+                "tkr": ["v1.22.2"]
+            }
+        ]
+    },
+    "tkgm": {
+        "name": "Tanzu Kubernetes Grid Multicloud (TKGM)",
+        "docs": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/index.html"
+
+    },
+    "tkgs": {
+        "name": "vSphere with Tanzu (TKGS)",
+        "docs": "https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-152BE7D2-E227-4DAA-B527-557B564D9718.html"
+    }
+}
