@@ -33,3 +33,12 @@ Docs: https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GU
 |Version|TKR|Date|Notes|
 |-------|---|----|-----|
 
+
+## TODO
+
+* Finish adding TKGI and TKGS
+* Find release dates for TKGM
+* Add TKR section that shows k8s releases mapped to tanzu releases
+  * Just probably just high-level:
+  * 1.21 --> TKGM 1.4, 1.5
+  * 1.22 --> TKGM 1.5, TKGI 1.13
