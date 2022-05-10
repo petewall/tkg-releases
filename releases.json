@@ -6,33 +6,81 @@
     "releases": [
       {
         "version": "1.13.4",
-        "releaseDate": "April 29, 2022",
+        "releaseDate": "April 29th, 2022",
         "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-4",
         "tkr": ["1.22.6"]
       },
       {
         "version": "1.13.3",
-        "releaseDate": "March 11, 2022",
+        "releaseDate": "March 11th, 2022",
         "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-3",
         "tkr": ["1.22.6"]
       },
       {
         "version": "1.13.2",
-        "releaseDate": "February 17, 2022",
+        "releaseDate": "February 17th, 2022",
         "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-2",
         "tkr": ["1.22.6"]
       },
       {
         "version": "1.13.1",
-        "releaseDate": "December 22, 2021",
+        "releaseDate": "December 22nd, 2021",
         "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-1",
         "tkr": ["1.22.2"]
       },
       {
         "version": "1.13.0",
-        "releaseDate": "November 30, 2021",
+        "releaseDate": "November 30th, 2021",
         "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-0",
         "tkr": ["1.22.2"]
+      },
+      {
+        "version": "1.12.6",
+        "releaseDate": "May 3rd, 2022",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-6",
+        "tkr": ["1.21.9"]
+      },
+      {
+        "version": "1.12.6",
+        "releaseDate": "May 3rd, 2022",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-6",
+        "tkr": ["1.21.9"]
+      },
+      {
+        "version": "1.12.5",
+        "releaseDate": "April 13th, 2022",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-5",
+        "tkr": ["1.21.9"]
+      },
+      {
+        "version": "1.12.4",
+        "releaseDate": "March 1st, 2022",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-4",
+        "tkr": ["1.21.9"]
+      },
+      {
+        "version": "1.12.3",
+        "releaseDate": "December 20th, 2021",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-6",
+        "tkr": ["1.21.6"]
+      },
+      {
+        "version": "1.12.2",
+        "releaseDate": "December 9th, 2021",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-2",
+        "tkr": ["1.21.6"]
+      },
+      {
+        "version": "1.12.1",
+        "releaseDate": "November 30th, 2021",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-1",
+        "tkr": ["1.21.5"]
+      },
+      {
+        "version": "1.12.0",
+        "releaseDate": "September 9th, 2021",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-0",
+        "tkr": ["1.21.3"]
       }
     ]
   },

@@ -7,11 +7,19 @@ Docs: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition
 
 |Version|TKR|Date|Notes|
 |-------|---|----|-----|
-|1.13.4|1.22.6<br />|April 29, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-4)|
-|1.13.3|1.22.6<br />|March 11, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-3)|
-|1.13.2|1.22.6<br />|February 17, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-2)|
-|1.13.1|1.22.2<br />|December 22, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-1)|
-|1.13.0|1.22.2<br />|November 30, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-0)|
+|1.13.4|1.22.6<br />|April 29th, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-4)|
+|1.13.3|1.22.6<br />|March 11th, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-3)|
+|1.13.2|1.22.6<br />|February 17th, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-2)|
+|1.13.1|1.22.2<br />|December 22nd, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-1)|
+|1.13.0|1.22.2<br />|November 30th, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-0)|
+|1.12.6|1.21.9<br />|May 3rd, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-6)|
+|1.12.6|1.21.9<br />|May 3rd, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-6)|
+|1.12.5|1.21.9<br />|April 13th, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-5)|
+|1.12.4|1.21.9<br />|March 1st, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-4)|
+|1.12.3|1.21.6<br />|December 20th, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-6)|
+|1.12.2|1.21.6<br />|December 9th, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-2)|
+|1.12.1|1.21.5<br />|November 30th, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-1)|
+|1.12.0|1.21.3<br />|September 9th, 2021|[Release notes](https://docs.pivotal.io/tkgi/1-12/release-notes.html#1-12-0)|
 
 ### Tanzu Kubernetes Grid Multicloud (TKGM)
 Docs: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/index.html
