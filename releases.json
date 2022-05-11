@@ -142,6 +142,26 @@
   {
     "slug": "tkgs",
     "name": "vSphere with Tanzu (TKGS)",
-    "docs": "https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-152BE7D2-E227-4DAA-B527-557B564D9718.html"
+    "docs": "https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GUID-152BE7D2-E227-4DAA-B527-557B564D9718.html",
+    "releases": [
+      {
+        "version": "7.0 Update 3",
+        "releaseDate": "October 5th, 2021",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-releases/services/rn/vmware-tanzu-kubernetes-releases-release-notes/index.html#compatibility-for-vmware-tanzu-kubernetes-releases",
+        "tkr": ["1.21.6-photon", "1.21.6-ubuntu", "1.21.2-photon", "1.20.8-ubuntu"]
+      },
+      {
+        "version": "7.0 Update 2",
+        "releaseDate": "March 9th, 2021",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-releases/services/rn/vmware-tanzu-kubernetes-releases-release-notes/index.html#compatibility-for-vmware-tanzu-kubernetes-releases",
+        "tkr": ["1.20.12-photon", "1.20.9-photon", "1.19.16-photon", "1.19.14-photon"]
+      },
+      {
+        "version": "7.0 Update 1",
+        "releaseDate": "October 6th, 2020",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-releases/services/rn/vmware-tanzu-kubernetes-releases-release-notes/index.html#compatibility-for-vmware-tanzu-kubernetes-releases",
+        "tkr": ["1.18.19-photon", "1.17.17-photon"]
+      }
+    ]
   }
 ]

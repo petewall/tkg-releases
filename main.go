@@ -26,6 +26,18 @@ type TemplateData struct {
 	Products []Product
 }
 
+func GetAllTKRReleases(products []Product) map[string][]string {
+	results := map[string][]string{}
+
+	// For each product
+	//	 for each version
+	//     for each tkr
+	//       get major.minor as key
+	//       results[key] = "product slug + product version"
+
+	return results
+}
+
 func main() {
 	data, err := ioutil.ReadFile("releases.json")
 	if err != nil {

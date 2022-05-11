@@ -16,8 +16,6 @@ Docs: {{.Docs}}
 
 ## TODO
 
-* Finish adding TKGI and TKGS
-* Find release dates for TKGM
 * Add TKR section that shows k8s releases mapped to tanzu releases
   * Just probably just high-level:
   * 1.21 --> TKGM 1.4, 1.5
