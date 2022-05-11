@@ -6,6 +6,8 @@ import (
 	"io/ioutil"
 	"os"
 	"text/template"
+
+	"github.com/Masterminds/semver"
 )
 
 type Release struct {
@@ -16,24 +18,36 @@ type Release struct {
 }
 
 type Product struct {
-	Slug     string    `json:"slug"`
-	Name     string    `json:"name"`
-	Docs     string    `json:"docs"`
-	Releases []Release `json:"releases"`
+	Slug      string    `json:"slug"`
+	Name      string    `json:"name"`
+	ShortName string    `json:"shortName"`
+	Docs      string    `json:"docs"`
+	Releases  []Release `json:"releases"`
 }
 
 type TemplateData struct {
-	Products []Product
+	Products           []Product
+	KubernetesReleases map[string][]string
 }
 
 func GetAllTKRReleases(products []Product) map[string][]string {
 	results := map[string][]string{}
-
-	// For each product
-	//	 for each version
-	//     for each tkr
-	//       get major.minor as key
-	//       results[key] = "product slug + product version"
+	for _, product := range products {
+		for _, release := range product.Releases {
+			for _, tkr := range release.TKR {
+				k8sVersionObject, err := semver.NewVersion(tkr)
+				if err != nil {
+					_, _ = fmt.Fprintf(os.Stderr, "TKR version \"%s\" is not a valid semver. Found in %s %s", tkr, product.Slug, release.Version)
+				} else {
+					k8sVersion := fmt.Sprintf("%d.%d", k8sVersionObject.Major(), k8sVersionObject.Minor())
+					if results[k8sVersion] == nil {
+						results[k8sVersion] = []string{}
+					}
+					results[k8sVersion] = append(results[k8sVersion], fmt.Sprintf("%s %s", product.ShortName, release.Version))
+				}
+			}
+		}
+	}
 
 	return results
 }
@@ -59,7 +73,8 @@ func main() {
 	}
 
 	err = readmeTemplate.Execute(os.Stdout, &TemplateData{
-		Products: products,
+		Products:           products,
+		KubernetesReleases: GetAllTKRReleases(products),
 	})
 	if err != nil {
 		_, _ = fmt.Fprintf(os.Stderr, "Failed to execute template: %s\n", err.Error())

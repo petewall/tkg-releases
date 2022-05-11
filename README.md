@@ -45,9 +45,12 @@ Docs: https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GU
 |7.0 Update 1|1.18.19-photon<br />1.17.17-photon<br />|October 6th, 2020|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-releases/services/rn/vmware-tanzu-kubernetes-releases-release-notes/index.html#compatibility-for-vmware-tanzu-kubernetes-releases)|
 
 
-## TODO
-
-* Add TKR section that shows k8s releases mapped to tanzu releases
-  * Just probably just high-level:
-  * 1.21 --> TKGM 1.4, 1.5
-  * 1.22 --> TKGM 1.5, TKGI 1.13
+## By Kubernetes Release
+|Kubernetes Release|TKG Versions|
+|------------------|------------|
+|1.17|TKGM 1.3.0<br />TKGS 7.0 Update 1<br />|
+|1.18|TKGM 1.3.1<br />TKGM 1.3.0<br />TKGS 7.0 Update 1<br />|
+|1.19|TKGM 1.4.2<br />TKGM 1.4.0<br />TKGM 1.3.1<br />TKGM 1.3.0<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 2<br />|
+|1.20|TKGM 1.5.2<br />TKGM 1.5.1<br />TKGM 1.5.0<br />TKGM 1.4.2<br />TKGM 1.4.0<br />TKGM 1.3.1<br />TKGM 1.3.0<br />TKGS 7.0 Update 3<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 2<br />|
+|1.21|TKGI 1.12.6<br />TKGI 1.12.6<br />TKGI 1.12.5<br />TKGI 1.12.4<br />TKGI 1.12.3<br />TKGI 1.12.2<br />TKGI 1.12.1<br />TKGI 1.12.0<br />TKGM 1.5.3<br />TKGM 1.5.2<br />TKGM 1.5.1<br />TKGM 1.5.0<br />TKGM 1.4.2<br />TKGM 1.4.0<br />TKGS 7.0 Update 3<br />TKGS 7.0 Update 3<br />TKGS 7.0 Update 3<br />|
+|1.22|TKGI 1.13.4<br />TKGI 1.13.3<br />TKGI 1.13.2<br />TKGI 1.13.1<br />TKGI 1.13.0<br />TKGM 1.5.3<br />TKGM 1.5.2<br />TKGM 1.5.1<br />TKGM 1.5.0<br />|
