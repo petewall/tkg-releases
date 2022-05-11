@@ -49,8 +49,8 @@ Docs: https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GU
 |Kubernetes Release|TKG Versions|
 |------------------|------------|
 |1.17|TKGM 1.3.0<br />TKGS 7.0 Update 1<br />|
-|1.18|TKGM 1.3.1<br />TKGM 1.3.0<br />TKGS 7.0 Update 1<br />|
-|1.19|TKGM 1.4.2<br />TKGM 1.4.0<br />TKGM 1.3.1<br />TKGM 1.3.0<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 2<br />|
-|1.20|TKGM 1.5.2<br />TKGM 1.5.1<br />TKGM 1.5.0<br />TKGM 1.4.2<br />TKGM 1.4.0<br />TKGM 1.3.1<br />TKGM 1.3.0<br />TKGS 7.0 Update 3<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 2<br />|
-|1.21|TKGI 1.12.6<br />TKGI 1.12.6<br />TKGI 1.12.5<br />TKGI 1.12.4<br />TKGI 1.12.3<br />TKGI 1.12.2<br />TKGI 1.12.1<br />TKGI 1.12.0<br />TKGM 1.5.3<br />TKGM 1.5.2<br />TKGM 1.5.1<br />TKGM 1.5.0<br />TKGM 1.4.2<br />TKGM 1.4.0<br />TKGS 7.0 Update 3<br />TKGS 7.0 Update 3<br />TKGS 7.0 Update 3<br />|
-|1.22|TKGI 1.13.4<br />TKGI 1.13.3<br />TKGI 1.13.2<br />TKGI 1.13.1<br />TKGI 1.13.0<br />TKGM 1.5.3<br />TKGM 1.5.2<br />TKGM 1.5.1<br />TKGM 1.5.0<br />|
+|1.18|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGS 7.0 Update 1<br />|
+|1.19|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGS 7.0 Update 2<br />|
+|1.20|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 3<br />|
+|1.21|TKGI 1.12.0<br />TKGI 1.12.1<br />TKGI 1.12.2<br />TKGI 1.12.3<br />TKGI 1.12.4<br />TKGI 1.12.5<br />TKGI 1.12.6<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGS 7.0 Update 3<br />|
+|1.22|TKGI 1.13.0<br />TKGI 1.13.1<br />TKGI 1.13.2<br />TKGI 1.13.3<br />TKGI 1.13.4<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />|

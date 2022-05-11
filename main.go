@@ -27,11 +27,11 @@ type Product struct {
 
 type TemplateData struct {
 	Products           []Product
-	KubernetesReleases map[string][]string
+	KubernetesReleases map[string]map[string]string
 }
 
-func GetAllTKRReleases(products []Product) map[string][]string {
-	results := map[string][]string{}
+func GetAllTKRReleases(products []Product) map[string]map[string]string {
+	results := map[string]map[string]string{}
 	for _, product := range products {
 		for _, release := range product.Releases {
 			for _, tkr := range release.TKR {
@@ -41,9 +41,10 @@ func GetAllTKRReleases(products []Product) map[string][]string {
 				} else {
 					k8sVersion := fmt.Sprintf("%d.%d", k8sVersionObject.Major(), k8sVersionObject.Minor())
 					if results[k8sVersion] == nil {
-						results[k8sVersion] = []string{}
+						results[k8sVersion] = map[string]string{}
 					}
-					results[k8sVersion] = append(results[k8sVersion], fmt.Sprintf("%s %s", product.ShortName, release.Version))
+					tkgVersion := fmt.Sprintf("%s %s", product.ShortName, release.Version)
+					results[k8sVersion][tkgVersion] = tkgVersion
 				}
 			}
 		}
