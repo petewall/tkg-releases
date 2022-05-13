@@ -6,6 +6,12 @@
     "docs": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/index.html",
     "releases": [
       {
+        "version": "1.14.0",
+        "releaseDate": "May 13th, 2022",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html",
+        "tkr": ["1.23.4"]
+      },
+      {
         "version": "1.13.4",
         "releaseDate": "April 29th, 2022",
         "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-4",
