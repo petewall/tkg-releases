@@ -1,0 +1,49 @@
+---
+resources:
+  - name: source
+    type: git
+    icon: github
+    source:
+      uri: git@github.com:petewall/tkg-releases.git
+      private_key: ((github.private_key))
+      branch: main
+
+  - name: golang
+    type: registry-image
+    icon: docker
+    source:
+      repository: harbor-repo.vmware.com/dockerhub-proxy-cache/library/golang
+      username: ((harbor.username))
+      password: ((harbor.token))
+
+jobs:
+  - name: update-readme
+    plan:
+      - get: golang
+      - get: source
+        trigger: true
+      - task:
+        image: golang
+        config:
+          platform: linux
+          inputs:
+            - name: source
+          outputs:
+            - name: source
+          run:
+            path: bash
+            dir: source
+            args:
+              - -exc
+              - |
+                go run main.go > README.md
+                git config --global user.email "pete@petewall.net"
+                git config --global user.name "Pete Wall"
+                git add README.md
+                if ! git diff --staged --quiet ; then
+                  git commit -m "[ci skip] Update README.md"
+                fi
+      - put: source
+        inputs: detect
+        params:
+          repository: source
