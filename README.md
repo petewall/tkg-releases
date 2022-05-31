@@ -28,6 +28,7 @@ Docs: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/index.html
 
 |Version|TKR|Date|Notes|
 |-------|---|----|-----|
+|1.5.4|1.20.15<br />1.21.11<br />1.22.9<br />|May 31st, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-release-notes.html)|
 |1.5.3|1.21.11<br />1.22.8<br />|April 26th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-release-notes.html)|
 |1.5.2|1.22.5<br />1.21.8<br />1.20.14<br />|March 21st, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-release-notes.html)|
 |1.5.1|1.22.5<br />1.21.8<br />1.20.14<br />|February 17th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-release-notes.html)|
@@ -53,7 +54,7 @@ Docs: https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GU
 |1.17|TKGM 1.3.0<br />TKGS 7.0 Update 1<br />|
 |1.18|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGS 7.0 Update 1<br />|
 |1.19|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGS 7.0 Update 2<br />|
-|1.20|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 3<br />|
-|1.21|TKGI 1.12.0<br />TKGI 1.12.1<br />TKGI 1.12.2<br />TKGI 1.12.3<br />TKGI 1.12.4<br />TKGI 1.12.5<br />TKGI 1.12.6<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGS 7.0 Update 3<br />|
-|1.22|TKGI 1.13.0<br />TKGI 1.13.1<br />TKGI 1.13.2<br />TKGI 1.13.3<br />TKGI 1.13.4<br />TKGI 1.13.5<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />|
+|1.20|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.4<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 3<br />|
+|1.21|TKGI 1.12.0<br />TKGI 1.12.1<br />TKGI 1.12.2<br />TKGI 1.12.3<br />TKGI 1.12.4<br />TKGI 1.12.5<br />TKGI 1.12.6<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGM 1.5.4<br />TKGS 7.0 Update 3<br />|
+|1.22|TKGI 1.13.0<br />TKGI 1.13.1<br />TKGI 1.13.2<br />TKGI 1.13.3<br />TKGI 1.13.4<br />TKGI 1.13.5<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGM 1.5.4<br />|
 |1.23|TKGI 1.14.0<br />|
