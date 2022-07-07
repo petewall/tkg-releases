@@ -7,7 +7,8 @@ Docs: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition
 
 |Version|TKR|Date|Notes|
 |-------|---|----|-----|
-|1.14.0|1.23.4<br />|May 13th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html)|
+|1.14.1|1.23.7<br />|May 13th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi-patches/GUID-release-notes.html#tkgi-v1141-0)|
+|1.14.0|1.23.4<br />|May 13th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi-patches/GUID-release-notes.html#tkgi-v1140-8)|
 |1.13.6|1.22.6<br />|June 29th, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-6)|
 |1.13.5|1.22.6<br />|May 23rd, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-5)|
 |1.13.4|1.22.6<br />|April 29th, 2022|[Release notes](https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-4)|
@@ -58,4 +59,4 @@ Docs: https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GU
 |1.20|TKGM 1.3.0<br />TKGM 1.3.1<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.4<br />TKGS 7.0 Update 2<br />TKGS 7.0 Update 3<br />|
 |1.21|TKGI 1.12.0<br />TKGI 1.12.1<br />TKGI 1.12.2<br />TKGI 1.12.3<br />TKGI 1.12.4<br />TKGI 1.12.5<br />TKGI 1.12.6<br />TKGI 1.12.7<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGM 1.5.4<br />TKGS 7.0 Update 3<br />|
 |1.22|TKGI 1.13.0<br />TKGI 1.13.1<br />TKGI 1.13.2<br />TKGI 1.13.3<br />TKGI 1.13.4<br />TKGI 1.13.5<br />TKGI 1.13.6<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGM 1.5.4<br />|
-|1.23|TKGI 1.14.0<br />|
+|1.23|TKGI 1.14.0<br />TKGI 1.14.1<br />|
