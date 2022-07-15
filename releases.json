@@ -146,6 +146,12 @@
         "tkr": ["1.22.5", "1.21.8", "1.20.14"]
       },
       {
+        "version": "1.4.3",
+        "releaseDate": "July 14th, 2022",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.4.3/rn/vmware-tanzu-kubernetes-grid-143-release-notes/index.html",
+        "tkr": ["1.21.8", "1.20.14", "1.19.16"]
+      },
+      {
         "version": "1.4.2",
         "releaseDate": "February 17th, 2022",
         "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.4.2/rn/vmware-tanzu-kubernetes-grid-142-release-notes/index.html",
