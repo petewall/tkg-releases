@@ -18,6 +18,12 @@
         "tkr": ["1.23.4"]
       },
       {
+        "version": "1.13.7",
+        "releaseDate": "August 10th, 2022",
+        "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-7",
+        "tkr": ["1.22.12"]
+      },
+      {
         "version": "1.13.6",
         "releaseDate": "June 29th, 2022",
         "releaseNotes": "https://docs.pivotal.io/tkgi/1-13/release-notes.html#1-13-6",
