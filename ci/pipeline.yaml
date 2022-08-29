@@ -23,7 +23,7 @@ jobs:
       - get: golang
       - get: source
         trigger: true
-      - task:
+      - task: update-release
         image: golang
         config:
           platform: linux
