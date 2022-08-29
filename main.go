@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"text/template"
 
@@ -54,7 +53,7 @@ func GetAllTKRReleases(products []Product) map[string]map[string]string {
 }
 
 func main() {
-	data, err := ioutil.ReadFile("releases.json")
+	data, err := os.ReadFile("releases.json")
 	if err != nil {
 		_, _ = fmt.Fprintf(os.Stderr, "Failed to read releases file: %s\n", err.Error())
 		return

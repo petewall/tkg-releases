@@ -6,15 +6,21 @@
     "docs": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/index.html",
     "releases": [
       {
+        "version": "1.14.2",
+        "releaseDate": "August 29th, 2022",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html#1-14-2",
+        "tkr": ["1.23.7"]
+      },
+      {
         "version": "1.14.1",
-        "releaseDate": "May 13th, 2022",
-        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi-patches/GUID-release-notes.html#tkgi-v1141-0",
+        "releaseDate": "July 6th, 2022",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html#tkgi-v1141-12",
         "tkr": ["1.23.7"]
       },
       {
         "version": "1.14.0",
-        "releaseDate": "May 13th, 2022",
-        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi-patches/GUID-release-notes.html#tkgi-v1140-8",
+        "releaseDate": "May 12th, 2022",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html#tkgi-v1140-24",
         "tkr": ["1.23.4"]
       },
       {

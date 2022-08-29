@@ -13,6 +13,7 @@ resources:
     icon: docker
     source:
       repository: harbor-repo.vmware.com/dockerhub-proxy-cache/library/golang
+      tag: 1.19
       username: ((harbor.username))
       password: ((harbor.token))
 
