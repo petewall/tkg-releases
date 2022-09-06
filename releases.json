@@ -134,6 +134,12 @@
     "docs": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/index.html",
     "releases": [
       {
+        "version": "1.6.0",
+        "releaseDate": "September 1st, 2022",
+        "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.6/vmware-tanzu-kubernetes-grid-16/GUID-release-notes.html",
+        "tkr": ["1.21.14", "1.22.11", "1.23.8"]
+      },
+      {
         "version": "1.5.4",
         "releaseDate": "May 31st, 2022",
         "releaseNotes": "https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.5/vmware-tanzu-kubernetes-grid-15/GUID-release-notes.html",
