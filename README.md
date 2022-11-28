@@ -7,7 +7,8 @@ Docs: https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition
 
 |Version|TKR|Date|Notes|
 |-------|---|----|-----|
-|1.15.0|1.24.3<br />|September 20th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.15/tkgi/GUID-release-notes.html)|
+|1.15.1|1.24.7<br />|November 22nd, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.15/tkgi/GUID-release-notes.html#tkgi-v1151-0)|
+|1.15.0|1.24.3<br />|September 20th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.15/tkgi/GUID-release-notes.html#tkgi-v1150-11)|
 |1.14.3|1.23.12<br />|October 26th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html#1-14-3)|
 |1.14.2|1.23.7<br />|August 29th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html#1-14-2)|
 |1.14.1|1.23.7<br />|July 6th, 2022|[Release notes](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid-Integrated-Edition/1.14/tkgi/GUID-release-notes.html#tkgi-v1141-12)|
@@ -69,4 +70,4 @@ Docs: https://docs.vmware.com/en/VMware-vSphere/7.0/vmware-vsphere-with-tanzu/GU
 |1.21|TKGI 1.12.0<br />TKGI 1.12.1<br />TKGI 1.12.2<br />TKGI 1.12.3<br />TKGI 1.12.4<br />TKGI 1.12.5<br />TKGI 1.12.6<br />TKGI 1.12.7<br />TKGI 1.12.8<br />TKGM 1.4.0<br />TKGM 1.4.2<br />TKGM 1.4.3<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGM 1.5.4<br />TKGM 1.6.0<br />TKGS 7.0 Update 3<br />|
 |1.22|TKGI 1.13.0<br />TKGI 1.13.1<br />TKGI 1.13.2<br />TKGI 1.13.3<br />TKGI 1.13.4<br />TKGI 1.13.5<br />TKGI 1.13.6<br />TKGI 1.13.7<br />TKGI 1.13.8<br />TKGI 1.13.9<br />TKGM 1.5.0<br />TKGM 1.5.1<br />TKGM 1.5.2<br />TKGM 1.5.3<br />TKGM 1.5.4<br />TKGM 1.6.0<br />|
 |1.23|TKGI 1.14.0<br />TKGI 1.14.1<br />TKGI 1.14.2<br />TKGI 1.14.3<br />TKGM 1.6.0<br />|
-|1.24|TKGI 1.15.0<br />|
+|1.24|TKGI 1.15.0<br />TKGI 1.15.1<br />|
